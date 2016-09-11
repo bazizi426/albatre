@@ -23,6 +23,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
   </head>
 
   <body>
@@ -38,11 +40,6 @@
         </div>
       </section>
       <div class="container">
-        <!-- <div class="contactez-nous">
-          <a href="#">
-            <span class="glyphicon glyphicon-envelope"></span> CONTACTEZ-NOUS
-          </a>
-        </div> -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -69,111 +66,159 @@
         <div class="col-xs-12 text-center banner-content">
           <h1>VOUS ÊTES CHEZ VOUS &Agrave; <span class="casablanca">CASABLANCA</span></h1>
           <h3>TROUVEZ UNE <strong><i>LOCATION</i></strong></h3>
-
-          <form class="container main-search-form" action="" method="post">
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-lg-1">
-              <a href="#" class="col-xs-12 btn btn-primary btn-achat search-button">ACHAT</a>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#" class="col-xs-12 btn btn-warning btn-location search-button">LOCATION</a>
-            </div>
-
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-              <select class="form-control search-select" name="type-de-bien">
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-              </select>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-              <select class="form-control search-select" name="nombre-de-pieces">
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-              </select>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-              <select class="form-control search-select" name="nombre-de-chambres">
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-                <option value="option">option</option>
-              </select>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-              <a href="#" style="font-size: 12px" class="col-xs-8 btn btn-success btn-plus-de-details search-button plus-de-details"> <span class="glyphicon glyphicon-plus"></span>&nbsp;PLUS DE D&Eacute;TAILS</a>
-              <button type="button" class="col-xs-3 btn btn-warning btn-search search-button pull-right">
-                <span class="glyphicon glyphicon-search"></span>
-              </button>
-
-            </div>
-          </form>
         </div>
     </div>
+
+    <!-- Start From -->
+      <form class="container main-search-form" action="" method="post">
+      <div class="col-xs-6 col-sm-3 col-md-1">
+        <a href="#" class="btn btn-primary btn-achat search-button">ACHAT</a>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <a href="#" class="btn btn-warning btn-location search-button">LOCATION</a>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2 visible-sm">
+        <a href="#" class="btn btn-success btn-plus-de-details search-button plus-de-details"> <span class="glyphicon glyphicon-plus"></span>&nbsp;PLUS DE D&Eacute;TAILS</a>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-1 visible-sm">
+        <button type="button" class="btn btn-warning btn-search search-button pull-right">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </div>
+      <div class="clearfix visible-sm"></div>
+      <br class="visible-sm">
+      <div class="select-holder">
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <select class="form-control search-select" name="type-de-bien">
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+          </select>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <select class="form-control search-select" name="nombre-de-pieces">
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+          </select>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <select class="form-control search-select" name="nombre-de-chambres">
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+            <option value="option">option</option>
+          </select>
+        </div>
+      </div>
+      <div class="clearfix visible-sm"></div>
+      <div class="col-xs-6 col-sm-3 col-md-2 btns btns-first hidden-sm">
+        <a href="#" class="btn btn-success btn-plus-de-details search-button plus-de-details"> <span class="glyphicon glyphicon-plus"></span>&nbsp;PLUS DE D&Eacute;TAILS</a>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-1 btns btns-second hidden-sm">
+        <button type="button" class="btn btn-warning btn-search search-button pull-right">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </div>
+    </form>
+    <!-- End Form  -->
+
     <!-- End Banner -->
     <div class="container content-wrapper text-center">
       <section class="row">
-          <article class="col-md-4 col-sm-6 col-xs-12">
-              <img src="images/article-1.jpg" class="img-responsive" alt="article 1" />
-              <div class="article-content">
-                  <h3>titre h3 de grande taille</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  </p>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+                <div class="overlay">
+                   <a class="info" href="#"><span class="glyphicon glyphicon-plus"></span> <br> Plus d'informations</a>
                 </div>
-          </article>
-          <article class="col-md-4 col-sm-6 col-xs-12">
-              <img src="images/article-2.jpg" class="img-responsive" alt="article 1" />
-              <div class="article-content">
-                <h3>titre h3 de grande taille</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                </p>
-              </div>
-          </article>
-          <article class="col-md-4 col-sm-6 col-xs-12">
-              <img src="images/article-3.jpg" class="img-responsive" alt="article 1" />
-              <div class="article-content">
-                <h3>titre h3 de grande taille</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                </p>
-              </div>
-          </article>
-          <div class="clearfix hidden-sm"></div>
-          <article class="col-md-4 col-sm-6 col-xs-12">
-              <img src="images/article-4.jpg" class="img-responsive" alt="article 1" />
-              <div class="article-content">
-                <h3>titre h3 de grande taille</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                </p>
-              </div>
-          </article>
-          <div class="clearfix visible-sm"></div>
-          <article class="col-md-4 col-sm-6 col-xs-12">
-              <img src="images/article-5.jpg" class="img-responsive" alt="article 1" />
-              <div class="article-content">
-                <h3>titre h3 de grande taille</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                </p>
-              </div>
-          </article>
-          <article class="col-md-4 col-sm-6 col-xs-12">
-              <img src="images/article-5.jpg" class="img-responsive" alt="article 1" />
-              <div class="article-content">
-                <h3>titre h3 de grande taille</h3>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                </p>
             </div>
-          </article>
+            <div class="center-block article-description">
+              <!-- <br> -->
+              <h3>titre h3 de grande taille</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              </p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+                <div class="overlay">
+                   <a class="info" href="#"><span class="glyphicon glyphicon-plus"></span> <br> Plus d'informations</a>
+                </div>
+            </div>
+            <div class="center-block article-description article-description-orange">
+              <h3>titre h3 de grande taille</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              </p>
+            </div>
+        </div>
+        <div class="clearfix visible-sm"></div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+                <div class="overlay">
+                   <a class="info" href="#"><span class="glyphicon glyphicon-plus"></span> <br> Plus d'informations</a>
+                </div>
+            </div>
+            <div class="center-block article-description">
+              <h3>titre h3 de grande taille</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              </p>
+            </div>
+        </div>
+        <div class="clearfix visible-md visible-lg"></div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+                <div class="overlay">
+                   <a class="info" href="#"><span class="glyphicon glyphicon-plus"></span> <br> Plus d'informations</a>
+                </div>
+            </div>
+            <div class="center-block article-description">
+              <h3>titre h3 de grande taille</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              </p>
+            </div>
+        </div>
+        <div class="clearfix visible-sm"></div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+                <div class="overlay">
+                   <a class="info" href="#"><span class="glyphicon glyphicon-plus"></span> <br> Plus d'informations</a>
+                </div>
+            </div>
+            <div class="center-block article-description article-description-green">
+              <h3>titre h3 de grande taille</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              </p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+                <div class="overlay">
+                   <a class="info" href="#"><span class="glyphicon glyphicon-plus"></span> <br> Plus d'informations</a>
+                </div>
+            </div>
+            <div class="center-block article-description">
+              <h3>titre h3 de grande taille</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              </p>
+            </div>
+        </div>
       </section>
 
     </div><!-- /.container -->
